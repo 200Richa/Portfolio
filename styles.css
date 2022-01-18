@@ -1,0 +1,308 @@
+body{
+    position: relative;
+}
+
+/* #myScrollspy {
+     position: sticky; 
+
+} */
+
+ul.nav-pills {
+    top: 70px;
+    font-family: 'Dongle', sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    line-height: 2.1rem;
+    height: 100vh;
+    /* width: 20vw; */
+    margin-bottom: 0px;
+}
+
+a.navbar-brand {
+    margin: 0px;
+}
+
+#myScrollspy img {
+    border-radius: 50%;
+    margin: 0px;
+    border: 8px solid #DE834D;
+    /* border: 8px solid #A267AC; */
+    margin-bottom: 50px;
+    margin-top: 50px;
+} 
+
+a.nav-link {
+    color: #fff;
+    padding: 0px 15px;
+}
+
+
+
+a :hover {
+    color: #DE834D;
+    /* opacity: 0.1; */
+}
+
+div.container {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* div.row{
+    padding: 0px;
+    margin: 0px;
+}  */
+
+
+
+
+
+#myScrollspy {
+    background-color: #B3541E;
+    /* background-color: #6867AC; */
+    text-align: center;
+    padding-left:50px;
+    padding-right: 50px;
+    /* Dummy style */
+    position: sticky;
+}
+
+
+/* About */
+#about{
+    padding: 40px;
+    padding-top: 100px;
+}
+
+.lname{
+    color: #DE834D;
+}
+
+h1 {
+font-family: 'Be Vietnam Pro', sans-serif;
+font-size: 4.5rem;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+.link {
+    text-decoration: none;
+}
+.link:hover{
+    color: #DE834D;
+    opacity: 0.8;
+}
+.mail{
+    color: #DE834D;
+    text-decoration: none;
+}
+
+.mail:hover{
+    color: #B3541E;
+}
+h4 {
+    margin: 30px 0px;
+    color: #787A91;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+p {
+    margin: 40px 0px;
+}
+
+.socials {
+    margin: 1rem;
+    font-size: 2.2rem;
+    color: #000;
+    text-decoration: none;
+}
+
+.socials:hover {
+    color: #DE834D;
+    margin-bottom: 50px;
+}
+
+
+
+/* Experience */
+
+#experience{
+    padding: 40px;
+    padding-top: 0px;
+}
+
+h2{
+    font-size: 2.9rem;
+    line-height: 1rem;
+    margin: 70px 0px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+h3{
+    color: #536162;
+    font-size: 1.2rem;
+}
+
+#experience h4{
+    margin: 0px;
+    font-size: 1rem;
+}
+
+/* Education */
+
+#education{
+    padding: 40px;
+    padding-top: 0px;
+}
+
+#education h4{
+    margin: 0px;
+    font-size: 1rem;
+}
+
+/* Skills */
+
+#skills{
+    padding: 40px;
+    padding-top: 0px;
+}
+
+#skills ul {
+    list-style-type: none;
+}
+
+#skills .check {
+    font-weight: bolder;
+}
+
+#skills .tools {
+    font-size: 4rem;
+    color:#787A91;
+    margin:0px 3px;
+}
+
+/*Awards  */
+
+#awards{
+    padding: 40px;
+    padding-top: 0px;
+}
+
+
+#awards ul {
+    list-style-type: none;
+    font-size: 1.2rem;
+    color: #536162;
+    margin-bottom: 100px;
+}
+
+.trophy {
+    color: #FFC900;
+}
+
+/* Interests */
+#interests{
+    padding: 40px;
+    padding-top: 0px;
+}
+
+#interests ul{
+    list-style-type: none;
+    font-size: 1.2rem;
+    color: #536162;
+    margin-bottom: 100px;
+
+}
+
+
+/* POI */
+#poi{
+    padding: 40px;
+    padding-top: 0px;
+}
+
+#poi ul{
+    list-style-type: none;
+    font-size: 1.2rem;
+    color: #536162;
+    margin-bottom: 100px;
+
+}
+
+.list-icon {
+    color: #DE834D;
+    font-size: 1.5rem;
+}
+
+/* .nav-link {
+    color: white !important;
+    text-transform: uppercase;
+}
+
+.nav-link.active {
+    color: red !important;
+} */
+
+
+.nav-link {
+    text-transform: uppercase;
+}
+.nav-link.active {
+    color: #fff !important;
+    text-decoration: none;
+    background-color: #B3541E!important;
+}
+
+
+
+ @media (max-height: 470px) {
+    h1, h2, h3, h4 {
+        text-align: center;
+    }
+    ul.nav-pills {
+        margin-bottom: 0px; 
+        height: 45vh;
+    }
+    #myScrollspy img {
+        display: none;
+    }
+    #myScrollspy{
+        padding-left: 2px;
+    }
+    #awards h2{
+        line-height: 2.5rem;
+    }
+    #social-icons{
+        text-align: center;
+    }
+
+    div.col-lg-3 {
+        display:none;
+    }
+} 
+
+ @media (max-width: 987px) {
+    h1, h2, h3, h4 {
+        text-align: center;
+    }
+    ul.nav-pills {
+        margin-bottom: 0px; 
+        height: 40vh;
+    }
+    #myScrollspy img {
+        display: none;
+        margin-top: 0px;
+        margin-bottom: 2px;
+    }
+    #myScrollspy{
+        padding-left: 2px;
+    }
+    #awards h2{
+        line-height: 2.5rem;
+    }
+    #social-icons{
+        text-align: center;
+    }
+} 
