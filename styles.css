@@ -277,6 +277,9 @@ h3{
     #social-icons{
         text-align: center;
     }
+    #poi h2{
+        line-height: 2.5rem;
+    }
 
     div.col-lg-3 {
         display:none;
@@ -304,5 +307,8 @@ h3{
     }
     #social-icons{
         text-align: center;
+    }
+    #poi h2{
+        line-height: 2.5rem;
     }
 } 
