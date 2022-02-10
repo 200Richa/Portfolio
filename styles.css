@@ -22,6 +22,19 @@ a.navbar-brand {
     margin: 0px;
 }
 
+h2{
+    font-size: 2.9rem;
+    line-height: 1rem;
+    margin: 70px 0px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+h3{
+    color: #536162;
+    font-size: 1.2rem;
+}
+
 #myScrollspy img {
     border-radius: 50%;
     margin: 0px;
@@ -48,10 +61,6 @@ div.container {
     margin: 0px;
 }
 
-/* div.row{
-    padding: 0px;
-    margin: 0px;
-}  */
 
 
 
@@ -126,23 +135,9 @@ p {
 
 
 /* Experience */
-
 #experience{
     padding: 40px;
     padding-top: 0px;
-}
-
-h2{
-    font-size: 2.9rem;
-    line-height: 1rem;
-    margin: 70px 0px;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 100;
-}
-
-h3{
-    color: #536162;
-    font-size: 1.2rem;
 }
 
 #experience h4{
